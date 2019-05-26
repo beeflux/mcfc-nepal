@@ -32,3 +32,23 @@ div.container {
   background-color: #f2f2f2;
   padding: 20px;
 }
+<<<<<<< Updated upstream
+=======
+
+body
+ {
+    background-color: #f6b93b;
+  }
+
+  .container{
+   background-color:#b2bec3;
+   height:auto;
+   margin-top:40px;
+   width:90%;
+   margin-left:60px;
+   padding-left:20px;
+
+  }
+
+
+>>>>>>> Stashed changes
