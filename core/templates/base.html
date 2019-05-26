@@ -6,7 +6,9 @@
     <title>{% block title %}MCFCN{% endblock%}</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://use.fontawesome.com/45a5a1da21.js"></script>
+    <link rel="stylesheet" href="{%static 'css/bootstrap.css' %}"/>
+    <link rel="stylesheet" href="{%static 'css/fonts.css' %}"/>
+    <link rel="stylesheet" href="{%static 'css/style2.css' %}">
     <link
       rel="stylesheet"
       id="easy_load_more-frontend-css"
@@ -35,11 +37,41 @@
       type="text/css"
       media="all"
     />
+     <link rel="stylesheet" type="text/css" href="{%static 'css/style1.css' %}" />
+    <link
+      rel="stylesheet"
+      id="easy_load_more-frontend-css"
+      href="{%static 'css/style-frontend.css' %}"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="dpsp-frontend-style-css"
+      href="{%static 'css/frontend.css' %}"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="main-stylesheet-css"
+      href="{%static 'css/app.css' %}"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="wpmtst-custom-style-css"
+      href="{%static 'css/custom.css' %}"
+      type="text/css"
+      media="all"
+    />
     <!-- reponsive -->
     <script
       type="text/javascript"
       src="{%static 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?ver=3.2.1' %}"
     ></script>
+     <script src="{%static 'https://use.fontawesome.com/45a5a1da21.js' %}"></script>
   </head>
   <body
     style="background-color: #98c5e9"
@@ -98,7 +130,7 @@
               class="login menu-item menu-item-type-custom menu-item-object-custom menu-item-682"
               role="treeitem"
             >
-              <a href="#" data-open="login-modal">Merchandise Comparison</a>
+            <a href="#" data-open="login-modal">Merchandise Comparison</a>
             </li>
           </ul>
         </div>
@@ -204,6 +236,8 @@
         <script type="{%static 'text/javascript' %}">
           var elm_button_vars = { wrapper: "#news-post-holder" };
         </script>
+        <script src="{%static 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' %}"></script>
+        <script src="{%static 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js' %}"></script>
       </div>
       <!-- Closing off-canvas-content tag-->
     </div>
@@ -301,6 +335,7 @@
         </button>
       </div>
     </div>
+   
     <!-- Closing Off canvas wrapper tag -->
   </body>
 </html>
